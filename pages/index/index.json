@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "展位图和错误图",
+  "usingComponents": {
+    "image-ext": "../../components/image-extend"
+  }
+}

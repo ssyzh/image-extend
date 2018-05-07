@@ -1,0 +1,7 @@
+/**index.wxss**/
+
+.logo {
+  display: flex;
+  width: 500rpx;
+  height: 500rpx;
+}

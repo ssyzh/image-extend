@@ -1,0 +1,10 @@
+/* components/image-extend.wxss */
+
+.image-extend {
+    height: 100%;
+    width: 100%;
+}
+
+.img_none {
+    display: none;
+}

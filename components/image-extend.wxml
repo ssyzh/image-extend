@@ -1,0 +1,11 @@
+<!-- components/image-extend.wxml -->
+<block wx:if="{{placeholderImage != null}}">
+    <!-- 实际图片 -->
+    <image class="image-extend {{loadSuccess !=1 ?'img_none':''}}" src="{{src}}" mode="{{mode}}" lazy-load="{{lazyLoad}}" bindload="_loadSuccess" binderror="_loadError"></image>
+    <!-- 占位图片 -->
+    <image class="image-extend {{loadSuccess==1?'img_none':''}}" src="{{placeholderImage}}" mode="{{mode}}" lazy-load="{{lazyLoad}}"></image>
+</block>
+<block wx:else>
+    <!-- 默认图片 -->
+    <image class="image-extend" src="{{src}}" mode="{{mode}}" lazy-load="{{lazyLoad}}"></image>
+</block>
