@@ -1,13 +1,15 @@
 # image-extend
 
 微信小程序image标签的扩展，支持展位图和失败图
+
 扩展属性
+
 |属性名|类型|默认值|说明|
 |---|---|---|---|
 |placeholder-image|String|无|占位图，支持url、base64、本地目录|
 |broken-image|String|无|图片加载失败时显示图片，支持url、base64、本地目录|
 
-###### 注：最好不要使用 `url`
+###### 注: 最好不要使用 `url`
 
 核心代码
 ``` html
