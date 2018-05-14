@@ -27,7 +27,7 @@
 
 实现原理
 ``` css
-bindload : 图片加载完成时回调
+bindload : 图片加载完成时回调
 binderror : 图片加载失败时回调
 ```
 
