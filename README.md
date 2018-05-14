@@ -2,7 +2,7 @@
 
 微信小程序image标签的扩展，支持展位图和失败图
 
-扩展属性
+##### 扩展属性
 
 |属性名|类型|默认值|说明|
 |---|---|---|---|
@@ -11,7 +11,7 @@
 
 ###### 注: 最好不要使用 `url`
 
-核心代码
+##### 核心代码
 ``` html
 <block wx:if="{{placeholderImage != null}}">
     <!-- 实际图片 -->
@@ -25,13 +25,13 @@
 </block>
 ```
 
-实现原理
+##### 实现原理
 ``` css
 bindload : 图片加载完成时回调
 binderror : 图片加载失败时回调
 ```
 
-代码实例
+##### 代码实例
 ``` html
 <image-ext src="https://avatars3.githubusercontent.com/u/18711027" placeholder-image="/icon/default.png" brokenImage="/icon/break.png" class="logo"></image-ext>
 <!-- 网络图片 -->
